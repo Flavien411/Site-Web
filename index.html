@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no
+">
+    <title>Flavien Coulmeau - Web & App developer - Marketing & SEO  </title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <header>
+        <div class="menu-toggler">
+
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experiences" class="nav-link">Formation</a>
+                </li>
+                <!-- <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li> -->
+                <li>
+                <a href="#apropos" class="nav-link">A propos</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Flavien Coulmeau</h1>
+            <h6>Développeur Web et d'Applications | Orientation Marketing et SEO <br><br> Paris </h6>
+        </div>
+    </header>
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <!--<h1>Compétences</h1>-->
+               <!-- <h6>Que puis-je faire pour vous ?</h6>-->
+            </div>
+            <div class="my-skills">
+                <div class="skills" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Développement Web</h1>
+                    <p>
+                        Sites Vitrine - Applications Web - Blogs<br><br>
+                        Aujourd'hui plus qu'hier et moins que demain votre activité à besoin d'exister numériquement.
+                        Donnez vie à vos projets en leur donnant une visibilité sur le web.
+                    </p>
+                </div>
+                <div class="skills" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Conception et Développement d'application </h1>
+                    <p>
+                        Conception et analyse des besoins via méthodologie Merise et UML
+                        Développement d'applications de gestion  en multi-couche en se basant sur les normes de sécurité en vigueur.
+                    </p>
+                </div>
+                <div class="skills" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>Optimisation Marketing <br>SEO</h1>
+                    <p>
+                        Diplômé d'un Master en Marketing, je suis en mesure de vous faire des propositions pour faire évoluer
+                        votre stratégie ainsi que votre présence via le SEO. Penser global est l'assurance d'être cohérent.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                    <h1>Derniers Projets</h1>
+                    <!--<h6>Mes réalisations</h6>-->
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+                    <img src="images/myoga.png" alt="">
+                </div>
+                <div class="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="600">
+                <!--    <h6>Wordpress</h6>
+                    <h1>Myoga</h1>
+                    <p>
+                    Paris-->
+                    </p>
+                    <a href="https://myoga-paris.com/" target="_blank" class="cta"><button class="myBtn" >Details</button></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="400">
+                <!--<h6>Html - Css - Boostrap </h6>
+                <h1>Cenacle Teakwonkido</h1>
+                <p>Vincennes
+                </p>-->
+                <a href="http://tmp.cenaclerm.fr/index.html" target="_blank" class="cta"><button class="myBtn" >Details</button></a>
+                </div>
+                <div class="portfolio-img " data-aos="fade-left" data-aos-delay="600">
+                    <img src="images/vin.jpeg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="800">
+                    <img src="images/coming.jpeg" alt="">
+                </div>
+                <div class="portfolio-description" data-aos="fade-right" data-aos-delay="1000">
+        <!--            <h6>Application Web - UR Vinyls</h6>
+                    <h1>PHP - SYMFONY - HTML - CSS - BOOTSTRAP - JS - MYSQL</h1>
+                    <p>
+                        Création d'une marketplace de Vinyles d'occasion. UR Vinyls met en lien les vendeurs et
+                        acheteurs dans le but de créer une communauté. Projet à venir
+                    </p>-->
+                    <a href="#" class="cta"><button class="myBtn" >Details</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="galerie" id="galerie">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Galerie</h1>
+                &lt;!&ndash;<h6>Mes réalisations</h6>&ndash;&gt;
+                <p>
+                    <a href="#">Card</a> - <a href="#">Texte animés</a> - <a href="#">Effet 3D</a>
+                </p>
+            </div>
+        </div>
+    </section>-->
+
+    <section class="services" id="services2">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Outils</h1>
+                <!--<h6>Que puis-je faire pour vous ?</h6>-->
+            </div>
+            
+            <img class="" src="images/logo3.png">
+
+            <div class="my-skills">
+                <div class="skills" data-aos="fade-in" data-aos-delay="300">
+                    <div> <!--class="icon-container"-->
+                        <!--<i class="fas fa-layer-group"></i>-->
+                    </div>
+                    <h1>Langages / Framework </h1>
+                    <p>
+                        HTML5 - CSS3 - PHP - SQL - JAVA - JAVASCRIPT <br><br> SYMFONY - BOOTSTRAP  - SASS  <br><br>
+                        Développeur web spécialisé front-end je peux également réaliser votre back-end pour un projet global.
+                    </p>
+                </div>
+                <div class="skills" data-aos="fade-in" data-aos-delay="600">
+                    <div ><!--class="icon-container"-->
+                        <!--<i class="fas fa-code"></i>-->
+                    </div>
+                    <h1>Ce que je peux faire pour vous et vos projets </h1>
+                    <p>
+                        Sites vitrine, sites Wordpress, projets Symfony ... <br><br> Je peux également réaliser pour vous des éléments pour
+                        vos sites tels que des cartes produits, menus ou encore animations pour captiver vos utilisateurs.
+                    </p>
+                </div>
+                <div class="skills" data-aos="fade-in" data-aos-delay="900">
+                    <div ><!--class="icon-container"-->
+                        <!--<i class="fas fa-chart-bar"></i>-->
+                    </div>
+                    <h1>Méthodologie de travail </h1>
+                    <p>
+                        Conception et création de vos bases de données relationnelles via la méthode Merise. Développement en méthode Agile. <br><br> Je peux mener vos projets
+                        en programmation orientée objet en PHP et Symfony.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experiences" id="experiences">
+        <div class="container">
+            <a class="download" target="_blank" href="images/CV%20Flavien%20Coulmeau.pdf"></a>
+
+            <div class="section-heading" >
+                <h1>Formation - Expérience</h1>
+
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="2020 - 2021">
+                        <h1>Formation Concepteur Développeur d'Application</h1>
+                        <p>
+                            JAVA / Merise / HTML / CSS / REACT <br><br>
+                            - Conception et développement des composants d'interface utilisateur.<br><br>
+                            - Concevoir et développer la persistance des données.<br><br>
+                            - Création d'application multicouche.<br><br>
+                        </p>
+                    </li>
+                    <li class="date" data-date="2019 - 2020">
+                        <h1>Formation Développeur Web et Web Mobile</h1>
+                        <p>
+                            Réalisation de site vitrine / Blog / Système de gestion de base de données<br><br>
+                            - HTML / CSS / Bootstrap / Bulma / SCSS<br><br>
+                            - PHP / SYMFONY / MYSQL <br><br>
+                            - WORDPRESS <br><br>
+                        </p>
+                    </li>
+                    <li class="date" data-date="2016 - 2019">
+                        <h1>Decathlon <!-- - Permanent Magasin 50M€/an--></h1>
+                        <!--<p>
+                            - Responsable Communication Magasin <br><br>
+                            - Vendeur spécialisé / Responsable d'allée Montagne : gestion d'un périmètre de plus de 400k€/an. <br><br>
+                            - Permanent Magasin : ouverture/fermeture du magasin, gestion des vendeurs et responsable, contrôle des caisses, habilitation électrique.<br><br>
+                            - Etude de marché et développement de l'offre Ski sur le magasin (N°1 Société).<br><br>
+                            - Animation Client : proposition et mise en place et animation d'un simulateur de ski en VR.<br><br>
+                            - Formation des nouveaux vendeurs / Mise en place des déménagements saisonnier
+
+                        </p>-->
+                    </li>
+                    <li class="date" data-date="2015-2016">
+                        <h1>Consultant en recrutement</h1>
+                        <!--<p>
+                            - Recherche et placement de profils<br><br>
+                            - Négociation avec les entreprises<br><br>
+                            - A COMPLETER
+                        </p>-->
+                    </li>
+                    <li class="date" data-date="2015">
+                        <h1>Master Marketing et Communication interactive</h1>
+                        <p>
+                            Différents postes occupés entre 2010 et 2015 :<br><br>
+                            - <!--ALMAVIA : -->Chargé de communication.<br><br>
+                            - <!--AUTODISTRIBUTION : -->Chargé Trade Marketing et analyste comportemental.<br><br>
+                            - <!--ORANGE BUSINESS SERVICES : -->Chargé Marketing.<br><br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="apropos" id="apropos">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="200">
+                <img src="images/profile.jpeg" alt="image de profil de Flavien Coulmeau">
+            </div>
+            <div class="apropos-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="apropos-heading">
+                    <h1>A propos</h1>
+                    <h6>De moi</h6>
+                </div>
+                <p>
+                    Je m'épanouis dans le monde du développement qui répond à ma soif d'apprentissage et d'expérimentation. Bondir d'un paradigme à un autre
+                    ne me fait pas peur et mon adaptabilité sera un atout pour vos projets.<br><br> Mon background en école d'art ressort dans l'esthétisme de mes projets
+                    et le développement est aujourd'hui pour moi un nouvel
+                    outil de création artistique.<br><br>
+                    Derrière le développeur, le musicien : féru de synthétiseurs, synthétiseurs modulaire et autre boites à rythme, je suis également producteur de musique expérimentale
+                    et Dj.<br><br>
+                    Contact : <a href="mailto:flaviencoulmeau@gmail.com" style="">flaviencoulmeau@gmail.com</a>
+                </p>
+
+                <!--<div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                &lt;!&ndash;<h6>Travaillons ensemble !</h6>&ndash;&gt;
+            </div>
+
+            <form action="mail.php" method="post" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" placeholder="Saisir votre nom ...">
+                <label for="name">Prénom: </label>
+                <input type="text" id="firstname" name="firstname" placeholder="Saisir votre prénom ...">
+                <label for="name">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Saisir votre email ...">
+                <label for="service">Besoin:</label>
+                <select name="service" id="service">
+                    <option value="">Web Development</option>
+                    <option value="">App Development</option>
+                    <option value="">SEO & Marketing</option>
+                </select>
+                <label for="subject">Sujet:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>-->
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy;2021 Flavien Coulmeau</p>
+    </footer>
+
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function (e){
+            cursor.style.cssText = cursor2.style.cssText = "left : " +e.clientX + "px; top : " + e.clientY + "px";
+        });
+
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
